@@ -14,7 +14,7 @@ WEB_APP_URL = "https://priyanshu-studio.github.io/telegram-store/"
 def start(message):
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
     # Store ka button
-    web_app = WebAppInfo(url=WEB_APP_URL)
+    web_app = WebAppInfo(url=https://www.bigbasket.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand-PAN-Jan25&gad_source=1&gad_campaignid=22175835974&gbraid=0AAAAA91V9oqH1Sx0u_cqnqm7C8cjuS1es&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jm5IDUHr37zyHN84aLvQ9IWHnL5wWEnSYo2NBqXjslZdaQd44wRCOsaAiWoEALw_wcB)
     markup.add(KeyboardButton("🛒 Mera Store Open Karein", web_app=web_app))
     bot.send_message(message.chat.id, "नमस्ते! हमारे स्टोर से खरीदारी करने के लिए नीचे दिए गए बटन पर क्लिक करें।", reply_markup=markup)
 
